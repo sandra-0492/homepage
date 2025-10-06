@@ -1,0 +1,15 @@
+.body {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #e3a900;
+    font-family: "Athiti", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+    color: #091328;
+    text-align: center;
+}
+
+.body--colorLime {
+    background-color: #d3e43a;
+}

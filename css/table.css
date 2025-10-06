@@ -1,0 +1,23 @@
+.table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.tabel__cell {
+    border: 2px solid #0e0e0e;
+    text-align: center;
+    padding: 5px;
+}
+
+.tabel__cell--header {
+    background-color: #ffffff;
+}
+
+.table__row:hover {
+    background: #ffffff;
+}
+
+.section__tableContainer {
+    overflow-x: auto;
+}

@@ -1,0 +1,17 @@
+.header {
+    width: 700px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px 80px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #fdfdfd;
+    outline: 4px solid #091328;
+    box-shadow: 0px 20px 7px -8px #203783;
+    text-shadow: 1px 2px 30px;
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #091328;
+    text-align: center;
+}
