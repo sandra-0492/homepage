@@ -8,4 +8,4 @@ https://sandra-0492.github.io/homepage/
 
 ## Opis
 
-Zapraszam Cię na FanPage zespołu rochowego "Headstones". Let's rock !
+Zapraszam Cię na FanPage zespołu rockowego "Headstones" 😀 Let's rock 🤘
