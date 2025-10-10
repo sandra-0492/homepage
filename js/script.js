@@ -1,11 +1,28 @@
-let navigation__button = document.querySelector(".js-changeBackgroundButton");
-let body = document.querySelector(".body");
-let nextColorName = document.querySelector(".js-nextColorName");
+{
+  const welcome = () => {
+    console.log("Hello everyone 😀");
+  };
 
-navigation__button.addEventListener("click", () => {
-  body.classList.toggle("body--colorLime");
+  const toggleBackground = () => {
+    const body = document.querySelector(".body");
+    const nextColorName = document.querySelector(".js-nextColorName");
 
-  nextColorName.innerText = body.classList.contains("body--colorLime")
-    ? "miodowy"
-    : "limonkowy";
-});
+    body.classList.toggle("body--colorLime");
+
+    nextColorName.innerText = body.classList.contains("body--colorLime")
+      ? "miodowy"
+      : "limonkowy";
+  };
+
+  const init = () => {
+    const navigation__button = document.querySelector(
+      ".js-changeBackgroundButton"
+    );
+
+    navigation__button.addEventListener("click", toggleBackground);
+
+    welcome();
+  };
+
+  init();
+}
