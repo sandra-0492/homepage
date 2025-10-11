@@ -7,11 +7,11 @@
     const body = document.querySelector(".body");
     const nextColorName = document.querySelector(".js-nextColorName");
 
-    body.classList.toggle("body--colorLime");
+    body.classList.toggle("body--colorGreen");
 
-    nextColorName.innerText = body.classList.contains("body--colorLime")
+    nextColorName.innerText = body.classList.contains("body--colorGreen")
       ? "miodowy"
-      : "limonkowy";
+      : "zielony";
   };
 
   const init = () => {
